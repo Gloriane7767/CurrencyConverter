@@ -36,3 +36,41 @@ public class currencyConverter {
         }
     }
 
+    public static void SEK_to_other(double amount) {
+        System.out.println("1 SEK =" + 0.98 + " USD");
+        System.out.println();
+        System.out.println(amount + " SEK = " + (amount*0.98) + "USD");
+        System.out.println();
+
+        System.out.println("1 SEK =" + 0.090 + " EURO");
+        System.out.println();
+        System.out.println(amount + "1 SEK = " + (amount*0.090) + "EURO");
+        System.out.println();
+    }
+
+    public static void USD_to_other(double amount) {
+        System.out.println("1 USD =" + 10.17 + " SEK");
+        System.out.println();
+        System.out.println(amount + " USD = " + (amount*10.17) + "SEK");
+        System.out.println();
+
+        System.out.println("1 USD =" + 0.92 + " EURO");
+        System.out.println();
+        System.out.println(amount + "USD = " + (amount*0.92) + "EURO");
+        System.out.println();
+    }
+    //Euro to others
+    public static void EURO_to_other(double amount) {
+        System.out.println("1 EURO =" + 11.03 + " SEK");
+        System.out.println();
+        System.out.println(amount + " EURO = " + (amount*11.03) + "SEK");
+        System.out.println();
+
+        System.out.println("1 EURO =" + 1.085 + " USD");
+        System.out.println();
+        System.out.println(amount + " EURO = " + (amount*1.085) + "USD");
+        System.out.println();
+    }
+}
+
+
